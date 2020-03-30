@@ -10,7 +10,7 @@ global qr_code_scale_value
 os.system('color 2')
 
 print('#####################################################\n'
-      '# QR Code Creater                                 #\n'
+      '# QR Code Creater                                   #\n'
       '# version: (beta) v0.2                              #\n'
       '# release date: 30.03.2020                          #\n'
       '# @author: yusuf                                    #\n'
@@ -52,7 +52,7 @@ while(True):
     # create svg file
 
     if qr_code_type == 1:
-        print("In what color should the qr code be created? \n"
+        print("In what color should the QR code be created? \n"
               "1) Black\n"
               "2) Blue\n"
               "3) Red\n"
